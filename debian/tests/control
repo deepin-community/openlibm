@@ -1,0 +1,13 @@
+Test-Command: make -C test test-float; ./test/test-float
+Depends: @, build-essential
+
+Test-Command: make -C test test-double; ./test/test-double
+Depends: @, build-essential
+
+Test-Command: make -C test bench-syslibm; ./test/bench-syslibm
+Depends: @, build-essential
+Restrictions: allow-stderr
+
+Test-Command: make -C test bench-openlibm; ./test/bench-openlibm
+Depends: @, build-essential
+Restrictions: allow-stderr

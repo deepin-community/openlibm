@@ -1,0 +1,46 @@
+Source: openlibm
+Priority: optional
+Maintainer: Debian Julia Team <pkg-julia-devel@lists.alioth.debian.org>
+Uploaders: Graham Inggs <ginggs@debian.org>,
+           Peter Colberg <peter@colberg.org>,
+           Mo Zhou <cdluminate@gmail.com>,
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Section: libs
+Homepage: https://github.com/JuliaMath/openlibm
+Vcs-Git: https://salsa.debian.org/julia-team/openlibm.git
+Vcs-Browser: https://salsa.debian.org/julia-team/openlibm
+
+Package: libopenlibm3
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: standalone implementation of C mathematical functions (shared library)
+ OpenLibm is an effort to have a high quality, portable, standalone libm
+ implementation, under a liberal free software license. It can be used
+ standalone in applications and programming language implementations.
+ .
+ The project was born out of a need to have a good libm for the Julia
+ programming language that worked consistently across compilers and operating
+ systems, and in 32-bit and 64-bit environments.
+ .
+ This package contains a shared version of the library.
+
+Package: libopenlibm-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libopenlibm3 (= ${binary:Version}), ${misc:Depends}
+Description: standalone implementation of C mathematical functions (development files)
+ OpenLibm is an effort to have a high quality, portable, standalone libm
+ implementation, under a liberal free software license. It can be used
+ standalone in applications and programming language implementations.
+ .
+ The project was born out of a need to have a good libm for the Julia
+ programming language that worked consistently across compilers and operating
+ systems, and in 32-bit and 64-bit environments.
+ .
+ This package contains the development files needed to compile software using
+ openlibm.

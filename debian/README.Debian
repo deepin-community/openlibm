@@ -1,0 +1,40 @@
+Performance Comparison to system libm
+=====================================
+
+Upstream source ships a simple benchmarker. To compile and use it, just
+
+  $ cd tests
+  $ make bench
+  $ ./bench-openlibm
+  $ ./bench-syslibm
+
+Here is a sample result (CPU=Intel I5-7440HQ, 4C4T @ 2.8~3.8GHz)
+(MPS: the larger the better)
+
+  ./bench-syslibm 
+    pow     :  19.0415 MPS
+    hypot   :  82.4286 MPS
+    exp     :  83.2189 MPS
+    log     :  57.1461 MPS
+    log10   :  44.8768 MPS
+    sin     :  94.7686 MPS
+    cos     :  84.7915 MPS
+    tan     :  71.1836 MPS
+    asin    :  81.8074 MPS
+    acos    :  90.3702 MPS
+    atan    :  70.2736 MPS
+    atan2   :  36.8241 MPS
+
+  ./bench-openlibm 
+    pow     :  13.0814 MPS
+    hypot   :  60.3638 MPS
+    exp     :  116.1055 MPS
+    log     :  95.2774 MPS
+    log10   :  77.2413 MPS
+    sin     :  120.9996 MPS
+    cos     :  124.5636 MPS
+    tan     :  71.5262 MPS
+    asin    :  38.2661 MPS
+    acos    :  41.3668 MPS
+    atan    :  88.0274 MPS
+    atan2   :  43.3577 MPS

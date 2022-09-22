@@ -1,0 +1,4 @@
+usr/local/lib/libopenlibm.so    /usr/lib/${DEB_HOST_MULTIARCH}/
+usr/local/lib/libopenlibm.a     /usr/lib/${DEB_HOST_MULTIARCH}/
+usr/local/include/*             /usr/include/
+usr/local/lib/pkgconfig/*       /usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/

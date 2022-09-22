@@ -1,0 +1,185 @@
+openlibm (0.7.0+dfsg-2) unstable; urgency=medium
+
+  * Switch to debhelper 13
+  * Drop dh-exec, not needed with debhelper 13
+  * Add Build-Depends-Package to libopenlibm3.symbols
+  * Bump Standards-Version to 4.5.0, no changes
+
+ -- Graham Inggs <ginggs@debian.org>  Tue, 30 Jun 2020 13:26:26 +0000
+
+openlibm (0.7.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop add-s390x-support.patch included upstream
+  * Update packaging for libopenlibm2 -> libopenlibm3 transition
+  * Update symbols control file for armhf
+  * Switch to debhelper 12
+  * Set Rules-Requires-Root: no
+  * Bump Standards-Version to 4.4.1, no changes
+
+ -- Graham Inggs <ginggs@debian.org>  Tue, 24 Dec 2019 09:37:12 +0000
+
+openlibm (0.6.0+dfsg-2) unstable; urgency=medium
+
+  [ Helmut Grohne ]
+  * Fix FTCBFS: make install needs to know CC (Closes: #912683)
+
+  [ Graham Inggs ]
+  * Add support for s390x, thanks Dan Horák
+  * Bump Standards-Version to 4.2.1, no changes
+
+ -- Graham Inggs <ginggs@debian.org>  Thu, 08 Nov 2018 12:37:11 +0000
+
+openlibm (0.6.0+dfsg-1) unstable; urgency=medium
+
+  [ Peter Colberg ]
+  * Update Vcs-* fields for move to salsa.debian.org
+
+  [ Mo Zhou ]
+  * New upstream version 0.6.0+dfsg
+  * README.Debian: Add note about benchmarking
+  * Remove all the patches:
+    - Remove fix-missing-buildflags.patch, merged by upstream.
+    - Remove kfreebsd-hurd-tests.patch, fixed upstream.
+    - Remove fix-armhf-fp-status-register.patch, merged upstream.
+    - Remove add-mips-support.patch, merged upstream.
+  * Refresh copyright for upstream 0.6.0 release.
+  * Add myself to Uploaders.
+  * Upstream moved from JuliaLang to JuliaMath.
+    + Update control, watch, and copyright accordingly.
+  * Bump Standards Version to 4.1.4 .
+    + Fix insecure-copyright-format-uri. (3.9.8 -> 4.0.0)
+  * Bump debhelper compat level to 11.
+    - Remove --parallel flag in favor of debhelper compat 11.
+  * tests: Add autopkgtest control file.
+  * Refresh symbols control file for arm64.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Thu, 21 Jun 2018 09:01:29 +0000
+
+openlibm (0.5.4+dfsg-3) unstable; urgency=medium
+
+  * Add support for mips architectures,
+    thanks Radovan Birdic (Closes: #852441)
+
+ -- Graham Inggs <ginggs@debian.org>  Tue, 24 Jan 2017 20:26:37 +0200
+
+openlibm (0.5.4+dfsg-2) unstable; urgency=medium
+
+  * Fix armhf floating-point status register, thanks Elliot Saba
+  * Update Forwarded status in fix-missing-buildflags.patch
+  * Mark libopenlibm-dev Multi-Arch: same, as per MultiArch hinter
+  * Update debian/copyright
+
+ -- Graham Inggs <ginggs@debian.org>  Wed, 18 Jan 2017 20:25:14 +0200
+
+openlibm (0.5.4+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Peter Colberg <peter@colberg.org>  Sun, 18 Sep 2016 23:15:36 -0400
+
+openlibm (0.5.3+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Peter Colberg <peter@colberg.org>  Fri, 12 Aug 2016 00:04:11 -0400
+
+openlibm (0.5.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop fix-inline-of-fpgetprec-on-i386.patch, applied upstream
+  * Add debian/gbp.conf for pristine-tar
+
+ -- Peter Colberg <peter@colberg.org>  Sat, 06 Aug 2016 23:06:47 -0400
+
+openlibm (0.5.1+dfsg-1) unstable; urgency=medium
+
+  [ Peter Colberg ]
+  * New upstream release (Closes: #803206)
+  * Enable parallel build
+  * Enable bindnow hardening flag
+  * Bump Standards-Version to 3.9.8, no further changes
+  * Add myself to Uploaders
+  * Add repacksuffix to debian/watch
+  * Fix FTBFS on i386 due to missing inline of __fpgetprec
+
+  [ Graham Inggs ]
+  * Add arm64 symbols to debian/libopenlibm2.symbols
+
+ -- Peter Colberg <peter@colberg.org>  Wed, 22 Jun 2016 16:42:34 -0400
+
+openlibm (0.5.0+dfsg-2) unstable; urgency=medium
+
+  * Update debian/libopenlibm2.symbols, add ppc64 and i386.
+  * Fix building tests on GNU/kFreeBSD and GNU/Hurd.
+  * Fix missing buildflags, enable optimization again for *int.c and *intf.c.
+
+ -- Graham Inggs <ginggs@debian.org>  Wed, 06 Apr 2016 22:32:26 +0200
+
+openlibm (0.5.0+dfsg-1) unstable; urgency=medium
+
+  [ Sébastien Villemot ]
+  * Remove Sébastien Villemot from Uploaders.
+
+  [ Graham Inggs ]
+  * New upstream release
+    - PowerPC support (Closes: #818173)
+  * Drop all patches included upstream.
+  * Update debian/rules, tests now run in dh_auto_test.
+  * Update debian/libopenlibm2.symbols, add armhf, powerpc and ppc64el.
+  * Use secure URIs for VCS fields.
+  * Bump Standards-Version to 3.9.7, no further changes.
+  * Update debian/copyright.
+
+ -- Graham Inggs <ginggs@debian.org>  Tue, 29 Mar 2016 17:37:11 +0200
+
+openlibm (0.4.1+dfsg-4) unstable; urgency=medium
+
+  * Fix unresolved symbol __fpgetprec in libopenlibm.so.1.0 on i386.
+  * Do not explicitly link libm to work around issue with
+    'ld ... invalid version 26898 (max 0)' in some julia i386 builds.
+
+ -- Graham Inggs <ginggs@debian.org>  Fri, 13 Nov 2015 12:54:29 +0200
+
+openlibm (0.4.1+dfsg-3) unstable; urgency=medium
+
+  * Build on GNU/kFreeBSD and GNU/Hurd.
+  * Update debian/libopenlibm1.symbols.
+
+ -- Graham Inggs <ginggs@debian.org>  Tue, 27 Oct 2015 11:14:31 +0200
+
+openlibm (0.4.1+dfsg-2) unstable; urgency=medium
+
+  * Add myself to uploaders.
+  * Build everywhere.
+  * Fix missing buildflags.
+  * Explicitly link libm to fix underlinking.
+
+ -- Graham Inggs <ginggs@debian.org>  Mon, 26 Oct 2015 05:47:15 +0200
+
+openlibm (0.4.1+dfsg-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.4.1+dfsg
+  * Fix debian/watch for dfsg suffix mangling.
+  * d/p/test-tolerance.patch: drop patch, applied upstream.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Sébastien Villemot <sebastien@debian.org>  Thu, 30 Apr 2015 14:54:22 +0200
+
+openlibm (0.4+dfsg-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.4+dfsg
+  * fix-soname.patch, i386.patch: remove patches, applied upstream.
+  * Bump SONAME, shared lib package now libopenlibm1.
+  * Ship pkg-config file.
+  * No longer mark libopenlibm-dev as M-A:same. (Closes: #755213)
+  * Execute tests at build time.
+    Two new patches needed: test-tolerance.patch, exp-fpstack.patch.
+
+ -- Sébastien Villemot <sebastien@debian.org>  Tue, 29 Jul 2014 10:30:03 +0000
+
+openlibm (0.3+dfsg-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #751378)
+
+ -- Sébastien Villemot <sebastien@debian.org>  Sun, 06 Jul 2014 14:22:14 +0200

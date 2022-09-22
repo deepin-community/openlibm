@@ -1,0 +1,359 @@
+libopenlibm.so.3 libopenlibm3 #MINVER#
+* Build-Depends-Package: libopenlibm-dev
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_aT@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_atanhi@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_atanlo@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_pS0@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_pS1@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_pS2@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_pS3@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_pS4@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_pS5@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_pS6@Base 0.4
+ (arch=arm64)_ItL_pS7@Base 0.6.0
+ (arch=arm64)_ItL_pS8@Base 0.6.0
+ (arch=arm64)_ItL_pS9@Base 0.6.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_pi_lo@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_qS1@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_qS2@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_qS3@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_qS4@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)_ItL_qS5@Base 0.4
+ (arch=arm64)_ItL_qS6@Base 0.6.0
+ (arch=arm64)_ItL_qS7@Base 0.6.0
+ (arch=arm64)_ItL_qS8@Base 0.6.0
+ (arch=arm64)_ItL_qS9@Base 0.6.0
+ __exp__D@Base 0.4
+ __fe_dfl_env@Base 0.4
+#MISSING: 0.5.0# (arch=!armhf)__fedisableexcept@Base 0.4
+#MISSING: 0.5.0# (arch=!armhf)__feenableexcept@Base 0.4
+ __fpclassifyd@Base 0.4
+ __fpclassifyf@Base 0.4
+ (arch=!armhf)__fpclassifyl@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386)__has_sse@Base 0.4
+ __ieee754_rem_pio2@Base 0.4
+ __ieee754_rem_pio2f@Base 0.4
+ __isfinite@Base 0.4
+ __isfinitef@Base 0.4
+ (arch=!armhf)__isfinitel@Base 0.4
+ __isinff@Base 0.4
+ (arch=!armhf)__isinfl@Base 0.4
+ __isnanf@Base 0.4
+ (arch=!armhf)__isnanl@Base 0.4
+ __isnormal@Base 0.4
+ __isnormalf@Base 0.4
+ (arch=!armhf)__isnormall@Base 0.4
+ __kernel_cos@Base 0.4
+ __kernel_cosdf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)__kernel_cosl@Base 0.4
+ __kernel_rem_pio2@Base 0.4
+ __kernel_sin@Base 0.4
+#MISSING: 0.5.0# __kernel_sincos@Base 0.4
+#MISSING: 0.5.0# __kernel_sincosdf@Base 0.4
+ __kernel_sindf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)__kernel_sinl@Base 0.4
+ __kernel_tan@Base 0.4
+ __kernel_tandf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)__kernel_tanl@Base 0.4
+ __ldexp_cexp@Base 0.4
+ __ldexp_cexpf@Base 0.4
+ __ldexp_exp@Base 0.4
+ __ldexp_expf@Base 0.4
+ __log__D@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)__p1evll@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)__polevll@Base 0.5.0
+ __scan_nan@Base 0.5.0
+ __signbit@Base 0.4
+ __signbitf@Base 0.4
+ (arch=!armhf)__signbitl@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386)__test_sse@Base 0.4
+#MISSING: 0.5.0# _scan_nan@Base 0.4
+ acos@Base 0.4
+ acosf@Base 0.4
+ acosh@Base 0.4
+ acoshf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)acoshl@Base 0.5.0
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)acosl@Base 0.4
+ asin@Base 0.4
+ asinf@Base 0.4
+ asinh@Base 0.4
+ asinhf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)asinhl@Base 0.5.0
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)asinl@Base 0.4
+ atan2@Base 0.4
+ atan2f@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)atan2l@Base 0.4
+ atan@Base 0.4
+ atanf@Base 0.4
+ atanh@Base 0.4
+ atanhf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)atanhl@Base 0.5.0
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)atanl@Base 0.4
+ cabs@Base 0.4
+ cabsf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)cabsl@Base 0.4
+ cacos@Base 0.5.0
+ cacosf@Base 0.5.0
+ cacosh@Base 0.5.0
+ cacoshf@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)cacoshl@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)cacosl@Base 0.5.0
+ carg@Base 0.4
+ cargf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)cargl@Base 0.4
+ casin@Base 0.5.0
+ casinf@Base 0.5.0
+ casinh@Base 0.5.0
+ casinhf@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)casinhl@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)casinl@Base 0.5.0
+ catan@Base 0.5.0
+ catanf@Base 0.5.0
+ catanh@Base 0.5.0
+ catanhf@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)catanhl@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)catanl@Base 0.5.0
+ cbrt@Base 0.4
+ cbrtf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)cbrtl@Base 0.5.0
+ ccos@Base 0.4
+ ccosf@Base 0.4
+ ccosh@Base 0.4
+ ccoshf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)ccoshl@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)ccosl@Base 0.5.0
+ ceil@Base 0.4
+ ceilf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)ceill@Base 0.4
+ cexp@Base 0.4
+ cexpf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)cexpl@Base 0.5.0
+ cimag@Base 0.4
+ cimagf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)cimagl@Base 0.4
+ clog@Base 0.5.0
+ clogf@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)clogl@Base 0.5.0
+ conj@Base 0.4
+ conjf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)conjl@Base 0.4
+ copysign@Base 0.4
+ copysignf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)copysignl@Base 0.4
+ cos@Base 0.4
+ cosf@Base 0.4
+ cosh@Base 0.4
+ coshf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)coshl@Base 0.5.0
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)cosl@Base 0.4
+ cpow@Base 0.4
+ cpowf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)cpowl@Base 0.4
+ cproj@Base 0.4
+ cprojf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)cprojl@Base 0.4
+ creal@Base 0.4
+ crealf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)creall@Base 0.4
+ csin@Base 0.4
+ csinf@Base 0.4
+ csinh@Base 0.4
+ csinhf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)csinhl@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)csinl@Base 0.5.0
+ csqrt@Base 0.4
+ csqrtf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)csqrtl@Base 0.4
+ ctan@Base 0.4
+ ctanf@Base 0.4
+ ctanh@Base 0.4
+ ctanhf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)ctanhl@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)ctanl@Base 0.5.0
+#MISSING: 0.5.0# drem@Base 0.4
+#MISSING: 0.5.0# dremf@Base 0.4
+ erf@Base 0.4
+ erfc@Base 0.4
+ erfcf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)erfcl@Base 0.5.0
+ erff@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)erfl@Base 0.5.0
+ exp2@Base 0.4
+ exp2f@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)exp2l@Base 0.4
+ exp@Base 0.4
+ expf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)expl@Base 0.5.0
+ expm1@Base 0.4
+ expm1f@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)expm1l@Base 0.5.0
+ fabs@Base 0.4
+ fabsf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)fabsl@Base 0.4
+ fdim@Base 0.4
+ fdimf@Base 0.4
+ (arch=!armhf)fdiml@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386 armhf arm64 powerpc ppc64el ppc64 mips mipsel mips64el s390x)feclearexcept@Base 0.4
+ (arch=!armhf !arm64 !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)fedisableexcept@Base 0.4
+ (arch=!armhf !arm64 !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)feenableexcept@Base 0.4
+ fegetenv@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386 armhf arm64 powerpc ppc64el ppc64 mips mipsel mips64el s390x)fegetexceptflag@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386 armhf arm64 powerpc ppc64el ppc64 mips mipsel mips64el s390x)fegetround@Base 0.4
+ feholdexcept@Base 0.4
+ feraiseexcept@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386 armhf arm64 powerpc ppc64el ppc64 mips mipsel mips64el s390x)fesetenv@Base 0.4
+ fesetexceptflag@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386 armhf arm64 powerpc ppc64el ppc64 mips mipsel mips64el s390x)fesetround@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386 armhf arm64 powerpc ppc64el ppc64 mips mipsel mips64el s390x)fetestexcept@Base 0.4
+ feupdateenv@Base 0.4
+#MISSING: 0.5.0# finite@Base 0.4
+#MISSING: 0.5.0# finitef@Base 0.4
+ floor@Base 0.4
+ floorf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)floorl@Base 0.4
+ fma@Base 0.4
+ fmaf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)fmal@Base 0.4
+ fmax@Base 0.4
+ fmaxf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)fmaxl@Base 0.4
+ fmin@Base 0.4
+ fminf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)fminl@Base 0.4
+ fmod@Base 0.4
+ fmodf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)fmodl@Base 0.4
+ (arch=i386 kfreebsd-i386 hurd-i386)fpgetprec@Base 0.5.0
+ (arch=i386 kfreebsd-i386 hurd-i386)fpsetprec@Base 0.5.0
+ frexp@Base 0.4
+ frexpf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)frexpl@Base 0.4
+#MISSING: 0.5.0# gamma@Base 0.4
+#MISSING: 0.5.0# gamma_r@Base 0.4
+#MISSING: 0.5.0# gammaf@Base 0.4
+#MISSING: 0.5.0# gammaf_r@Base 0.4
+ hypot@Base 0.4
+ hypotf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)hypotl@Base 0.4
+ ilogb@Base 0.4
+ ilogbf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)ilogbl@Base 0.4
+ isinf@Base 0.4
+ isinff@Base 0.4
+ isnan@Base 0.4
+ isnanf@Base 0.4
+ isopenlibm@Base 0.4
+ j0@Base 0.4
+ j0f@Base 0.4
+ j1@Base 0.4
+ j1f@Base 0.4
+ jn@Base 0.4
+ jnf@Base 0.4
+ ldexp@Base 0.4
+ ldexpf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)ldexpl@Base 0.4
+ lgamma@Base 0.4
+ lgamma_r@Base 0.4
+ lgammaf@Base 0.4
+ lgammaf_r@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)lgammal@Base 0.5.0
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)lgammal_r@Base 0.5.0
+ llrint@Base 0.4
+ llrintf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)llrintl@Base 0.4
+ llround@Base 0.4
+ llroundf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)llroundl@Base 0.4
+ log10@Base 0.4
+ log10f@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)log10l@Base 0.5.0
+ log1p@Base 0.4
+ log1pf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)log1pl@Base 0.5.0
+ log2@Base 0.4
+ log2f@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)log2l@Base 0.5.0
+ log@Base 0.4
+ logb@Base 0.4
+ logbf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)logbl@Base 0.4
+ logf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)logl@Base 0.5.0
+ lrint@Base 0.4
+ lrintf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)lrintl@Base 0.4
+ lround@Base 0.4
+ lroundf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)lroundl@Base 0.4
+ modf@Base 0.4
+ modff@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)modfl@Base 0.4
+ nan@Base 0.4
+ nanf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)nanl@Base 0.4
+ nearbyint@Base 0.4
+ nearbyintf@Base 0.4
+#MISSING: 0.5.0# nearbyintl@Base 0.4
+ (arch=arm64)nearbyintl@Base 0.6.0
+ nextafter@Base 0.4
+ nextafterf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)nextafterl@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)nexttoward@Base 0.4
+ (arch=!armhf)nexttowardf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)nexttowardl@Base 0.4
+ pow@Base 0.4
+ powf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)powl@Base 0.5.0
+ remainder@Base 0.4
+ remainderf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)remainderl@Base 0.4
+ remquo@Base 0.4
+ remquof@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)remquol@Base 0.4
+ rint@Base 0.4
+ rintf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)rintl@Base 0.4
+ round@Base 0.4
+ roundf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)roundl@Base 0.4
+#MISSING: 0.5.0# scalb@Base 0.4
+#MISSING: 0.5.0# scalbf@Base 0.4
+ scalbln@Base 0.4
+ scalblnf@Base 0.4
+ (arch=!armhf)scalblnl@Base 0.4
+ scalbn@Base 0.4
+ scalbnf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)scalbnl@Base 0.4
+ signgam@Base 0.4
+#MISSING: 0.5.0# significand@Base 0.4
+#MISSING: 0.5.0# significandf@Base 0.4
+ sin@Base 0.4
+ sincos@Base 0.4
+ sincosf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)sincosl@Base 0.4
+ sinf@Base 0.4
+ sinh@Base 0.4
+ sinhf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)sinhl@Base 0.5.0
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)sinl@Base 0.4
+ sqrt@Base 0.4
+ sqrtf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)sqrtl@Base 0.4
+ tan@Base 0.4
+ tanf@Base 0.4
+ tanh@Base 0.4
+ tanhf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)tanhl@Base 0.5.0
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)tanl@Base 0.4
+ tgamma@Base 0.4
+ tgammaf@Base 0.4
+ (arch=!armhf !powerpc !ppc64el !ppc64 !mips !mipsel !mips64el !s390x)tgammal@Base 0.5.0
+ trunc@Base 0.4
+ truncf@Base 0.4
+ (arch=!powerpc !ppc64el !ppc64 !mips64el !s390x)truncl@Base 0.4
+ y0@Base 0.4
+ y0f@Base 0.4
+ y1@Base 0.4
+ y1f@Base 0.4
+ yn@Base 0.4
+ ynf@Base 0.4

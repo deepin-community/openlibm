@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow
+-include /usr/share/dpkg/buildtools.mk
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	dh_auto_install -- "CC=$(CC)"
